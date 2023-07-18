@@ -1,7 +1,9 @@
+import LoginPage from './Pages/LoginPage';
+
 function App() {
   return (
-    <div className="App">
-      <h1>Ola nubinha</h1>
+    <div className="App container">
+     <LoginPage></LoginPage>
     </div>
   );
 }

@@ -1,7 +1,8 @@
 import React from 'react'
 
-export default function Button() {
+export default function Button(props) {
+    const {title} = props;
   return (
-    <div>index</div>
+    <button className='btn btn-primary' >{title}</button >
   )
 }
