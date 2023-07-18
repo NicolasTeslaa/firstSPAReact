@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    font-family: Roboto;
+}
+body{
+    background-color: darkblue;
+  background-image: 
+    radial-gradient(circle at 10% 15%, rgb(0, 0, 95)10%, transparent 0),
+    radial-gradient(circle at 45% -5%, rgb(0, 0, 95)10%, transparent 0),
+    radial-gradient(circle at -5% 75%, rgb(0, 0, 95)10%, transparent 0),
+    radial-gradient(circle at 80% 95%,  rgb(0, 0, 95)10%, transparent 0),
+    radial-gradient(circle at 50% 60%,  rgb(0, 0, 95)10%, transparent 0),
+    radial-gradient(circle at 70% 20%,  rgb(0, 0, 95)10%, transparent 0),
+    radial-gradient(circle at 35% 105%,  rgb(0, 0, 95)10%, transparent 0),
+    radial-gradient(circle at 105% 5%,  rgb(0, 0, 95) 10%, transparent 0);
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+}
+.loginCard{
+    margin-top: 25%;
+}
