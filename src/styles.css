@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: darkblue;
+  background-color: rgba(0, 0, 139, 0.313);
   background-image:
     radial-gradient(circle at 10% 15%, rgb(0, 0, 95)10%, transparent 0),
     radial-gradient(circle at 45% -5%, rgb(0, 0, 95)10%, transparent 0),
@@ -40,4 +40,13 @@ body {
   font-size: 18px;
   color: darkblue;
   font-weight: 800;
+}
+
+
+.logoff{
+  font-size: 20px;
+}
+
+.Link{
+  text-decoration: none;
 }
